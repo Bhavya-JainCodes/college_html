@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+  <form action="" name="registrationform">
+<label for="firstName">First name</label>  
+    <input type="text" id="firstName" value="Bhavya" placeholder="bhavya" >
+    <br/>
+    <label for="lastName">Last name</label>  
+    <input type="text" id="lastName" placeholder="Kumar" required>
+    <br/>
+    <label for="email">Email</label>  
+    <input type="email" id="Email" placeholder="example@gmail.com" required>
+    <br/>
+    <label for="phone">Phone Number</label>  
+    <input type="tel" id="phone" placeholder="1234567890" minlenght="10">
+    <br/>
+<label for="dob">DOB</label>  
+    <input type="date" id="dob" >
+    <br/>
+    <labeL for="stream">Stream</label>
+        <select name="stream" id="stream">
+            <option value="PCM">PCM</option>
+            <OPTION VALUE="ARTS">ARTS</OPTION>
+            <option value="commerce">Commerce
+                <select><br/>
+
+                <lable for="male">Male</lable>
+                <input type="radio" name="gender" id="male">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female">
+                <br>
+                 
+                <label for="password">Password</label>
+                <input type="password" NAME="password" >
+                <BR/>
+                <lable for="category">Category:</lable>
+                    <input type="checkbox" id="general" name="category" value="general">
+                    <label for="general">General</label>
+                    <input type="checkbox" id="obc" name="category" value="OBC">
+                    <label for="obc">OBC</label>
+                    <input type="checkbox" id="sc" name="category" value="SC">
+                    <label for="sc">SC</label>
+                    <input type="checkbox" id="st" name="category" value="ST">
+                    <label for="st">ST</label>
+
+                <br/>
+                <input type="submit" value="register">
+                <input type="reset" value="reset">
+
+  </form>  
+</body>
+</html>
