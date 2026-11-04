@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form</title>
+</head>
+
+<body>
+    <form action="" align="center">
+        <fieldset>
+            <legend>user personal info</legend>
+            <label for="name">name</label>
+            <input type="text" id="name" placeholder="bhavya" required>
+            <br><br>
+            <label for="email">email</label>
+            <input type="email" id="email"placeholder="email@123.com" required>
+            <br><br>
+            <label for="password">password</label>
+            <input type="password" id="password" placeholder="password">
+            <br><br>
+            <label for="confirm_password">confirm password</label>
+            <input type="password" id="confirm_password"  placeholder="confirm your password">
+            <br><br>
+
+            <select name="" id="">
+                <option value="">choose an option</option>
+                <option value="html">html</option>
+                <option value="java">java</option>
+                <option value="c++">c++</option>
+                <option value="php">php</option>
+                <!-- <option value=""></option> -->
+            </select>
+            <br><br>
+
+            <label for="">Enter your gender</label>
+
+            <div class="gender_group">
+                <label for=""></label>
+                <input type="radio" name="" id="">
+                <br><br>
+                <label for="male">male</label>
+                <input type="radio" name="male" id="male">
+                <br><br>
+                <label for="female">female</label>
+                <input type="radio" name="female" id="female">
+                <br><br>
+                <label for="other">other</label>
+                <input type="radio" name="other" id="other" placeholder="">
+            </div>
+            <br>
+            <label for="dob">enter your dob</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+            <label for="address">enter your address</label>
+            <textarea name="" id="address" placeholder="address"></textarea>
+            <br><br>
+            <input type="submit" value="submit">
+        </fieldset>
+    </form>
+</body>
+
+</html>
